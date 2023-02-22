@@ -1,0 +1,172 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+* {
+    font-family: 'Itim', cursive;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.men>a {
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    padding: 0 6px;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    padding-left: 160px;
+    padding-top: 130px;
+    background-image: url("./sillon_casa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 98%;
+    height: 50vh;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+.title>div>p {
+    margin: 15px 0;
+}
+
+.title>div>a {
+    text-decoration: none;
+    border-radius: 1px;
+    background-color: rgb(247, 188, 88);
+    padding: 5px 70px;
+    color: rgb(245, 245, 245);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    color: dimgray;
+}
+
+.lorem {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 60px 120px;    
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.lorem>p {
+    padding: 10px 0;
+}
+
+.des {
+    display: flex;
+    justify-content: left;
+    background: rgb(245, 245, 245);
+}
+
+.des>img {
+    width: 60%;
+}
+
+.lorem>a {
+    text-decoration: none;
+    border-radius: 1px;
+    background-color: rgb(247, 188, 88);
+    padding: 5px 15px;
+    color: rgb(245, 245, 245);
+    width: 15%;
+}
+
+.im {
+    background: rgb(245, 245, 245);
+}
+
+.sillas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px;
+}
+
+.special {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect {
+    width: 40%;
+}
+.special>img {
+    width: 30%;
+    padding: 20px 80px;
+}
+
+h5 {
+    font-size: 20px;
+    padding: 3% 0;
+}
+
+h6 {
+    font-size: 15px;
+    color: rgb(247, 188, 88);
+}
+
+.sect>p {
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+.sect>a {
+    text-decoration: none;
+    border-radius: 1px;
+    color: rgb(247, 188, 88);
+    margin-top: 30%;
+}
+
+.sign>a {
+    text-decoration: none;
+    border-radius: 1px;
+    background-color: rgb(247, 188, 88);
+    padding: 5px 15px;
+    color: rgb(245, 245, 245);
+    width: 15%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    align-items: center;
+}
+
+.lorem1 {
+    color: white;
+}
+
+.link {
+    color: white;
+}
+
+.link>ol>a {
+    color: white;
+}
+
+.contactar {
+    color: white;
+}
